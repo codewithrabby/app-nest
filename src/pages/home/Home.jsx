@@ -7,11 +7,12 @@ const Home = () => {
     return (
         <div>
             <section className="flex flex-col items-center justify-center text-center max-w-7xl mx-auto min-h-screen px-4">
-                <h1 className="text-[#001931] text-7xl font-bold leading-tight">We Build <br /> <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">Productive</span>{" "}Apps</h1>
+                <h1 className="text-[#001931] text-7xl font-bold leading-tight">We Build <br /> <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2]text-transparent bg-clip-text">Productive</span>{" "}Apps</h1>
                 <p className="text-[#627382] mt-6 text-sm max-w-2xl">At App Nest, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className="flex gap-4 mt-8">
-                    <button className="flex items-center gap-2 border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"><img src={googleImg} alt="Google Play" className="w-6 h-6"/> <span>Google Play</span> </button>
-                    <button className="flex items-center gap-2 border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store" className="w-6 h-6"/><span>App Store</span></button>
+                    <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"><img src={googleImg} alt="Google Play" className="w-6 h-6" /> <span>Google Play</span></a>
+
+                    <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store" className="w-6 h-6"/> <span>App Store</span> </a>
                 </div>
                 <div className="w-full  mt-10">
                     <img src={HeroLogo} alt="Hero" className="w-300px mx-auto"/>
