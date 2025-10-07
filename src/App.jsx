@@ -3,6 +3,8 @@ import { Outlet } from 'react-router'
 import './App.css'
 import logo from './assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router";
+
 
 function App() {
 
@@ -10,27 +12,24 @@ function App() {
   return (
     <>
       <nav className="flex justify-between items-center max-w-7xl mx-auto h-[80px] px-6">
-  <div className="flex items-center gap-2">
+  <Link to="/" className="flex items-center gap-2 cursor-pointer">
     <img src={logo} alt="logo" className="w-10 h-10" />
     <h3 className="text-2xl font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-  App Nest
-</h3>
-
-  </div>
+      App Nest
+    </h3>
+  </Link>
 
   <div className="flex items-center gap-8 text-lg font-medium">
-    <a href="#">Home</a>
-    <a href="#">Apps</a>
-    <a href="#">Installation</a>
-  </div>
+  <Link to="/">Home</Link>
+  <Link to="/appList">Apps</Link>
+  <Link to="/installedList">Installation</Link>
+</div>
+
 
   <div className="flex items-center gap-3">
-    <button className="flex items-center gap-2 text-white px-4 py-2 rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90 transition">
-  <FaGithub className="text-2xl" />
-  Contribute
-</button>
-
+    <a href="https://github.com/codewithrabby" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white px-4 py-2 rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90 transition"><FaGithub className="text-2xl" /> Contribute </a>
   </div>
+
       </nav>
 
 
