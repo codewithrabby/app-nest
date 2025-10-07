@@ -38,24 +38,24 @@ function App() {
 
 
         <footer className="footer flex justify-between items-center sm:footer-horizontal bg-base-300 text-base-content p-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-          <nav className='flex flex-col'>
+          <div className='flex flex-col'>
     <h6 className="footer-title mb-4 text-xl font-semibold">Services</h6>
     <a className="link link-hover">Branding</a>
     <a className="link link-hover">Design</a>
     <a className="link link-hover">Marketing</a>
     <a className="link link-hover">Advertisement</a>
-          </nav>
+          </div>
 
-          <nav className='flex flex-col'>
+          <div className='flex flex-col'>
             <h6 className="footer-title mb-4 text-xl font-semibold">Company</h6>
             <a className="link link-hover">About us</a>
             <a className="link link-hover">Contact</a>
             <a className="link link-hover">Jobs</a>
             <a className="link link-hover">Press kit</a>
-          </nav>
+          </div>
 
-          <nav>
-    <h6 className="footer-title mb-4 text-xl font-semibold">Social</h6>
+          <div>
+    <h6 className="footer-title mb-4 text-2xl font-semibold text-center">Social</h6>
     <div className="grid grid-flow-col gap-4">
       <a>
         <svg
@@ -91,7 +91,7 @@ function App() {
         </svg>
       </a>
     </div>
-        </nav>
+        </div>
         </footer>
     </>
   )
