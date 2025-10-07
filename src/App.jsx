@@ -50,7 +50,6 @@ function App() {
           </NavLink>
         </div>
 
-        {/* 💜 GitHub Contribute Button */}
         <div className="flex items-center gap-3">
           <a
             href="https://github.com/codewithrabby"
@@ -66,7 +65,7 @@ function App() {
 
       <Outlet />
 
-      <footer className="footer flex justify-between items-center sm:footer-horizontal bg-base-300 text-base-content p-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+      <footer className="footer flex justify-between items-center sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E293B] text-white">
         <div className="flex flex-col">
           <h6 className="footer-title mb-4 text-xl font-semibold">Services</h6>
           <a className="link link-hover">Branding</a>
@@ -88,7 +87,6 @@ function App() {
             Social
           </h6>
           <div className="grid grid-flow-col gap-4">
-            {/* Twitter */}
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +99,6 @@ function App() {
               </svg>
             </a>
 
-            {/* YouTube */}
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +111,6 @@ function App() {
               </svg>
             </a>
 
-            {/* Facebook */}
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
