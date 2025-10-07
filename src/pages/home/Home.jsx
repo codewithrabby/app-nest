@@ -46,10 +46,6 @@ const Home = () => {
             </section>
 
 
-
-
-
-
             <div className="text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] pt-8 pb-8">
                 <h2 className="text-center text-5xl font-bold mb-8 mt-10">Trusted by Millions, Built for You</h2>
                 <div className="flex justify-around items-center mb-8">
@@ -74,7 +70,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };
