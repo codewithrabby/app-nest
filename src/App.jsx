@@ -2,6 +2,9 @@ import { NavLink, Outlet } from "react-router";
 import "./App.css";
 import logo from "./assets/logo.png";
 import { FaGithub } from "react-icons/fa";
+import RouteChangeLoader from "../src/Components/RouteChangeLoader.jsx";
+
+
 
 function App() {
   return (
@@ -31,7 +34,8 @@ function App() {
           <a href="https://github.com/codewithrabby" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white px-4 py-2 rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90 transition"> <FaGithub className="text-2xl" /> Contribute </a>
         </div>
       </nav>
-
+      
+      <RouteChangeLoader />
 
       {/* Outlet section starts from here... */}
       <Outlet />

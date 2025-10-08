@@ -24,7 +24,7 @@ const Home = () => {
                         Productive
                     </span> Apps
                 </h1>
-                <p className="text-[#627382] mt-4 sm:mt-6 text-sm sm:text-base md:text-lg max-w-2xl"> At App Nest, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                <p className="text-[#627382] mt-4 sm:mt-6 text-sm sm:text-base md:text-lg max-w-4xl"> At App Nest, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8">
                     <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"> <img src={googleImg} alt="Google Play" className="w-6 h-6" /> <span>Google Play</span></a>

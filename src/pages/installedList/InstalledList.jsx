@@ -64,25 +64,16 @@ const InstalledList = () => {
             ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {installedApps.map((app) => (
-                        <div
-                            key={app.id}
-                            className="bg-white shadow-md border border-gray-100 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center hover:shadow-lg transition">
+                        <div key={app.id} className="bg-white shadow-md border border-gray-100 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center hover:shadow-lg transition">
                             <div className="flex items-center gap-4 w-full sm:w-auto">
                                 <img src={app.image} alt={app.title} className="w-20 h-20 object-contain rounded-lg"/>
                                 <div className="flex flex-col flex-1">
                                     <h2 className="text-xl font-semibold text-[#001931]">{app.title}</h2>
                                     <p className="text-[#627382] text-sm mb-2">{app.companyName}</p>
-
-                                    <div className="flex items-center gap-6 text-sm text-gray-600 flex-wrap">
-                                        <span className="flex items-center gap-2">
-                                            <img src={downloadIcon} alt="" className="w-4 h-4" /> {app.downloads}
-                                        </span>
-                                        <span className="flex items-center gap-2">
-                                            <img src={ratingsIcon} alt="" className="w-4 h-4" /> {app.ratingAvg}
-                                        </span>
-                                        <span className="flex items-center gap-2">
-                                            {app.size}
-                                        </span>
+                                    <div className="flex items-center gap-2 text-sm text-gray-600 flex-wrap">
+                                        <span className="flex items-center gap-1"> <img src={downloadIcon} alt="" className="w-4 h-4" /> {app.downloads}</span>
+                                        <span className="flex items-center gap-1"> <img src={ratingsIcon} alt="" className="w-4 h-4" /> {app.ratingAvg}</span>
+                                        <span className="flex items-center gap-1">{app.size}</span>
                                     </div>
                                 </div>
                             </div>
