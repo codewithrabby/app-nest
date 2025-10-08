@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './pages/home/Home.jsx'
 import AppList from './pages/AppList/AppList.jsx'
 import InstalledList from './pages/installedList/InstalledList.jsx'
+import AppDetail from './pages/appDetails/AppDetail.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
     {
       path: "installedList",
       element: <InstalledList></InstalledList>,
+    },
+    {
+      path: "app/:id",
+      element: <AppDetail />,
     },
   ]
   }

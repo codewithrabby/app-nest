@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-view-calendar-tasks-icon.png",
     "title": "TaskMaster",
     "companyName": "Productive Inc",
     "developedBy": "Productive Inc",
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Fit-icon.png",
     "title": "FitTrack",
     "companyName": "Health Labs",
     "developedBy": "Health Labs",
@@ -39,7 +39,7 @@
   },
   {
     "id": 3,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-4/128/budget-icon.png",
     "title": "BudgetWise",
     "companyName": "Finance Co",
     "developedBy": "Finance Co",
@@ -58,7 +58,7 @@
   },
   {
     "id": 4,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/itzikgur/my-seven/128/Travel-Baloon-icon.png",
     "title": "TravelBuddy",
     "companyName": "Wanderlust Ltd",
     "developedBy": "Wanderlust Ltd",
@@ -77,7 +77,7 @@
   },
   {
     "id": 5,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/iconshock/real-vista-project-managment/128/task-notes-icon.png",
     "title": "NoteIt",
     "companyName": "Productive Inc",
     "developedBy": "Productive Inc",
@@ -96,7 +96,7 @@
   },
   {
     "id": 6,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/pelfusion/long-shadow-media/128/Camera-icon.png",
     "title": "PhotoSnap",
     "companyName": "Creative Labs",
     "developedBy": "Creative Labs",
@@ -115,7 +115,7 @@
   },
   {
     "id": 7,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/mcdo-design/book/128/Cook-Book-icon.png",
     "title": "RecipeHub",
     "companyName": "Foodies Inc",
     "developedBy": "Foodies Inc",
@@ -134,7 +134,7 @@
   },
   {
     "id": 8,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/martz90/circle/128/weather-icon.png",
     "title": "WeatherNow",
     "companyName": "Climate Tech",
     "developedBy": "Climate Tech",
@@ -153,7 +153,7 @@
   },
   {
     "id": 9,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-3/128/Select-Language-icon.png",
     "title": "LanguageLearn",
     "companyName": "EduTech Global",
     "developedBy": "EduTech Global",
@@ -172,7 +172,7 @@
   },
   {
     "id": 10,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/icons8/ios7/128/Sports-Meditation-Guru-icon.png",
     "title": "MindfulMeditate",
     "companyName": "Wellness Apps",
     "developedBy": "Wellness Apps",
@@ -191,7 +191,7 @@
   },
   {
     "id": 11,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/graphicloads/100-flat/128/cart-icon.png",
     "title": "ShopSmart",
     "companyName": "Retail Solutions",
     "developedBy": "Retail Solutions",
@@ -210,7 +210,7 @@
   },
   {
     "id": 12,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/iconoir-team/iconoir/128/code-icon.png",
     "title": "LearnCode",
     "companyName": "Tech Education",
     "developedBy": "Tech Education",
@@ -229,7 +229,7 @@
   },
   {
     "id": 13,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/thegirltyler/brand-camp/128/Tent-Sleep-icon.png",
     "title": "SleepEase",
     "companyName": "Health & Wellness",
     "developedBy": "Health & Wellness",
@@ -248,7 +248,7 @@
   },
   {
     "id": 14,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/bootstrap/bootstrap/128/Bootstrap-chat-quote-fill-icon.png",
     "title": "DailyQuotes",
     "companyName": "InspireMe Apps",
     "developedBy": "InspireMe Apps",
@@ -267,7 +267,7 @@
   },
   {
     "id": 15,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/vargas21/aquave-metal/128/Music-icon.png",
     "title": "MusicFlow",
     "companyName": "Entertainment Corp",
     "developedBy": "Entertainment Corp",
@@ -286,7 +286,7 @@
   },
   {
     "id": 16,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/martz90/circle-addon2/128/health-icon.png",
     "title": "HealthTracker",
     "companyName": "WellCare Tech",
     "developedBy": "WellCare Tech",
@@ -305,7 +305,7 @@
   },
   {
     "id": 17,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/martz90/circle/128/calendar-icon.png",
     "title": "EventPlanner",
     "companyName": "OrganizeIt Inc",
     "developedBy": "OrganizeIt Inc",
@@ -324,7 +324,7 @@
   },
   {
     "id": 18,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/itzikgur/my-seven/128/Travel-Airplane-icon.png",
     "title": "TravelLog",
     "companyName": "Wanderers",
     "developedBy": "Wanderers",
@@ -343,7 +343,7 @@
   },
   {
     "id": 19,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/sportsbettingspot/summer-olympics/128/weightlifting-icon.png",
     "title": "FitnessPro",
     "companyName": "ActiveLife",
     "developedBy": "ActiveLife",
@@ -362,7 +362,7 @@
   },
   {
     "id": 20,
-    "image": "https://via.placeholder.com/150",
+    "image": "https://icons.iconarchive.com/icons/martz90/circle/128/camera-icon.png",
     "title": "PhotoEditorX",
     "companyName": "Creative Labs",
     "developedBy": "Creative Labs",

@@ -3,6 +3,7 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingsIcon from '../../assets/icon-ratings.png';
 import { FaSearch } from "react-icons/fa";
 import notFound from '../../assets/App-Error.png'
+import { Link } from "react-router";
 
 const AppList = () => {
     const [apps, setApps] = useState([]);
@@ -43,19 +44,14 @@ const AppList = () => {
 
             {filteredApps.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                    {filteredApps.slice(0, 20).map(({ id, img, title, companyName, size, ratingAvg }) => (
-                        <div key={id} className="border rounded-lg p-4 flex flex-col items-center bg-white shadow hover:shadow-lg transition">
-                            <img src={img} alt={title} className="w-24 h-24 object-contain mb-4" />
+                    {filteredApps.slice(0, 20).map(({ id, image, title, companyName, size, ratingAvg }) => (
+                        <Link to={`/app/${id}`} key={id} className="border rounded-lg p-4 flex flex-col items-center bg-white shadow hover:shadow-lg transition">
+                            <img src={image} alt={title} className="w-24 h-24 object-contain mb-4" />
                             <h2 className="text-lg font-semibold text-left mb-2">{title}: {companyName}</h2>
                             <div className="flex justify-between items-center w-full text-xs mt-auto">
-                                <span className="flex items-center gap-2 text-green-700 bg-green-100 px-2 py-1 rounded text-xs">
-                                    <img src={downloadIcon} alt="" className="w-4 h-4" />{size}
-                                </span>
-                                <span className="flex items-center gap-2 text-orange-700 bg-orange-100 px-2 py-1 rounded text-xs">
-                                    <img src={ratingsIcon} alt="" className="w-4 h-4" />{ratingAvg} reviews
-                                </span>
-                            </div>
-                        </div>
+                            <span className="flex items-center gap-2 text-green-700 bg-green-100 px-2 py-1 rounded text-xs"> <img src={downloadIcon} alt="" className="w-4 h-4" />{size}</span>
+                            <span className="flex items-center gap-2 text-orange-700 bg-orange-100 px-2 py-1 rounded text-xs"> <img src={ratingsIcon} alt="" className="w-4 h-4" />{ratingAvg} reviews </span></div>
+                        </Link>
                     ))}
                 </div>
             ) : (
