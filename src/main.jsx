@@ -7,6 +7,7 @@ import Home from './pages/home/Home.jsx'
 import AppList from './pages/AppList/AppList.jsx'
 import InstalledList from './pages/installedList/InstalledList.jsx'
 import AppDetail from './pages/appDetails/AppDetail.jsx'
+import NotFoundPage from './pages/NotFoundPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,10 +30,10 @@ const router = createBrowserRouter([
       path: "app/:id",
       element: <AppDetail />,
     },
-    // {
-    //   path: "*",
-    //   element: <NotFoundPage />,
-    // },
+    {
+      path: "*",
+      element: <NotFoundPage message="Oops, page not found!"/>,
+    },
   ]
   }
 ])
