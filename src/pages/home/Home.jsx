@@ -3,6 +3,8 @@ import HeroLogo from '../../assets/hero.png';
 import googleImg from '../../assets/images.png';
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 import { Link } from "react-router";
+import downloadIcon from '../../assets/icon-downloads.png';
+import ratingsIcon from '../../assets/icon-ratings.png';
 
 const Home = () => {
     const [apps, setApps] = useState([]);
@@ -69,13 +71,13 @@ const Home = () => {
     <p className='text-[#627382] text-xl text-center mb-6'>Explore All Trending Apps on the Market developed by us</p>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-6">
-        {apps.map(({ id, img, title, companyName, size, reviews }) => (
+        {apps.map(({ id, img, title, companyName, size, ratingAvg }) => (
             <div key={id} className="border rounded-lg p-4 flex flex-col items-center bg-white shadow hover:shadow-lg transition">
                 <img src={img} alt={title} className="w-24 h-24 object-contain mb-4" />
                 <h2 className="text-lg font-semibold text-left mb-2">{title}: {companyName}</h2>
                 <div className="flex justify-between items-center w-full text-sm mt-auto">
-                    <span className="flex items-center gap-2 text-green-700 bg-green-100 px-2 py-1 rounded">{size}</span>
-                    <span className="flex items-center gap-2 text-orange-700 bg-orange-100 px-2 py-1 rounded">{reviews} reviews</span>
+                    <span className="flex items-center gap-2 text-green-700 bg-green-100 px-2 py-1 rounded text-xs"><img src={downloadIcon} alt="" className="w-4 h-4" />{size}</span>
+                    <span className="flex items-center gap-2 text-orange-700 bg-orange-100 px-2 py-1 rounded text-xs"><img src={ratingsIcon} alt="" className="w-4 h-4" />{ratingAvg} reviews</span>
                 </div>
             </div>
         ))}
