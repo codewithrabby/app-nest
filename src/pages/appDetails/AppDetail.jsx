@@ -6,17 +6,25 @@ import reviewIcon from '../../assets/icon-review.png';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { getInstalledApps, addInstalledApp, removeInstalledApp } from '../../Utils/localStorage.js';
 import toast, { Toaster } from 'react-hot-toast';
+import NotFoundPage from '../NotFoundPage.jsx';
 
 const AppDetail = () => {
     const { id } = useParams();
     const [app, setApp] = useState(null);
     const [isInstalled, setIsInstalled] = useState(false);
+    const [notFound, setNotFound] = useState(false);
 
     useEffect(() => {
         fetch('/appsData.json')
         .then(res => res.json())
         .then(data => {
             const selectedApp = data.find(app => app.id === parseInt(id));
+
+            if (!selectedApp) {
+        setNotFound(true);
+        return;
+    }
+
             setApp(selectedApp);
 
             const installedApps = getInstalledApps();
@@ -26,6 +34,10 @@ const AppDetail = () => {
         })
         .catch(err => console.error(err));
     }, [id]);
+
+    if (notFound) {
+    return <NotFoundPage message="App not found!" />;
+}
 
     if (!app) {
         return (

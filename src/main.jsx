@@ -29,6 +29,10 @@ const router = createBrowserRouter([
       path: "app/:id",
       element: <AppDetail />,
     },
+    // {
+    //   path: "*",
+    //   element: <NotFoundPage />,
+    // },
   ]
   }
 ])

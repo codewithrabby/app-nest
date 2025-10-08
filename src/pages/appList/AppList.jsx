@@ -28,13 +28,10 @@ const AppList = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 mb-6">
-                <h2 className="text-lg font-medium text-[#001931]">
-                    ({filteredApps.length}) Apps Found
-                </h2>
+                <h2 className="text-lg font-medium text-[#001931]"> ({filteredApps.length}) Apps Found</h2>
 
                 <div className="relative w-full sm:w-64">
-                    <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg" />
-                    <input type="text" placeholder="Search apps..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition"/>
+                    <FaSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg" /> <input type="text" placeholder="Search apps..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition"/>
                 </div>
             </div>
 
