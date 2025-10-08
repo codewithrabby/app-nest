@@ -1,16 +1,57 @@
-# React + Vite
+App Name: APP NEST.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrption: App Nest is your all-in-one digital marketplace designed to make exploring and managing apps easier than ever. Whether you're searching for productivity tools, entertainment apps, or trending games, App Nest brings everything together in one beautifully organized space.
 
-Currently, two official plugins are available:
+Browse hundreds of apps with detailed descriptions, ratings, and reviews to help you make the right choice. With App Nest, you can install, manage, and even uninstall apps seamlessly — all within a clean, user-friendly interface inspired by the simplicity of the Play Store experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+App Nest isn’t just another app store — it’s a smarter, faster, and more beautiful way to discover digital experiences. It’s perfect for developers showcasing their creations and for users who love exploring what’s new in the app world.
 
-## React Compiler
+🧰 Technologies & Tools Used in App Nest:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚛️ Frontend Framework
 
-## Expanding the ESLint configuration
+React.js – Main UI library for building interactive components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Router DOM – For page navigation and dynamic routing (useParams, Link, etc.)
+
+🎨 UI & Styling
+
+Tailwind CSS – Utility-first CSS framework for fast, responsive styling
+
+DaisyUI (optional) – Tailwind plugin for prebuilt UI themes and components
+
+Lucide React / React Icons – For beautiful and scalable icons
+
+📊 Data Visualization
+
+Recharts – For rendering rating-based vertical bar charts
+
+🔔 Notifications
+
+React Hot Toast – For showing install/uninstall success messages and alerts
+
+💾 Storage & State Management
+
+Local Storage API – To save and persist installed apps locally
+
+React Hooks (useState, useEffect) – For state and side-effect management
+
+🌐 Data Handling
+
+Fetch API – To load JSON data (appsData.json) dynamically from the public folder
+
+🧱 Project Setup & Build Tools
+
+Vite / Create React App – For fast development environment (depending on setup)
+
+ES Modules (JSX + ES6) – For component-based architecture and imports
+
+🧩 Other Features
+
+Responsive Design (Flexbox + Grid)
+
+Custom Components (AppList, AppDetail, InstalledList)
+
+Dynamic Routing with Parameters
+
+Toast Notifications for User Feedback
